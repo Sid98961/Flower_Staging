@@ -58,45 +58,45 @@ useEffect(()=>{
     <div className='bg'> 
     <div className='design'>
     
-    <h1 style={{textAlign: 'center', padding: '0px',margin: '0px'}}> Flower Staging</h1>
+    <h1 style={{textAlign: 'center', padding: '0px',color: 'white', margin: '0px'}}> Flower Staging</h1>
     <div style={{textAlign: 'center'}}>
             <div>
-                <h2>Type Of Homeotic Gene</h2>
+                <h2 style={{color: 'white'}}>Type Of Homeotic Gene</h2>
                 <input className='des' type='text' onChange ={getData} />  
             </div>
             <form>
-                <h2>Type Of Homeotic Gene</h2>
+                <h2 style={{color: 'white'}}>Type Of Homeotic Gene</h2>
                 <input className='des' type='text' onChange ={getMata} />  
                 
             </form>
             <form>
-                <h2>Organ:</h2>
+                <h2 style={{color: 'white'}}>Organ:</h2>
                 <input className='des' type='text' value ={z} />
             </form>
                 
             {/* <img src={rosee} alt="rosee" /> */}
             <form> 
-                <h2>Mutation in gene A:</h2>
+                <h2 style={{color: 'white'}}>Mutation in gene A:</h2>
                 <input className='des' type='text' onChange ={getRata} />
             </form>
             <form> 
-                <h2> {res3}</h2>
+                <h2 style={{color: 'white'}}> {res3}</h2>
             </form>
             <form> 
-                <h2>Mutation in gene B:</h2>
+                <h2 style={{color: 'white'}}>Mutation in gene B:</h2>
                 <input className='des' type='text' onChange ={getJata} />
             </form>
             <form> 
-                <h2> {res4}</h2>
+                <h2 style={{color: 'white'}}> {res4}</h2>
             </form>
             <form> 
-                <h2>Mutation in gene C:</h2>
+                <h2 style={{color: 'white'}}>Mutation in gene C:</h2>
                 <input className='des' type='text' onChange ={getNata} />
             </form>
             <form> 
-                <h2> {res5}</h2>
+                <h2 style={{color: 'white'}}> {res5}</h2>
             </form>
-         <h2> Crafted by Sidharth(IIT BHU)</h2>
+         <h2 style={{color: 'white'}}> Crafted by Sidharth(IIT BHU)</h2>
     </div>
     </div>
     </div>
